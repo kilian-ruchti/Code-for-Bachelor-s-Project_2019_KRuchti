@@ -97,6 +97,7 @@ int main(int argc, char *argv[]){
 	bool activatedFunction = true; //true; false;
 	int wantedNumberIterations = 50000;
 
+	// TODO: change this into a vector
 	int density_1 = 0;
 	int density_2 = 0;
 	int density_3 = 0;
@@ -403,6 +404,7 @@ int main(int argc, char *argv[]){
 						if (activatedFunction) {
 
 							double h = (xmax-xmin)/10;
+							// Might be replaced by a vector
 							density_1 = 0;
 							density_2 = 0;
 							density_3 = 0;
