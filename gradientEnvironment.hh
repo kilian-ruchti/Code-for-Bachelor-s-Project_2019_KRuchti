@@ -48,6 +48,8 @@ Array<double, d> GradientEnvironment<d>::computeForceDirection(Array<double, d> 
 	return ref;
 }
 
+// A test for the force function
+	
 // template<int d>
 // Array<double, d> GradientEnvironment<d>::forceApplied(Array<double, d> pos) const{
 // // void GradientEnvironment<d>::forceApplied(Array<double, d> position) const{
@@ -78,7 +80,8 @@ Array<double, d> GradientEnvironment<d>::computeForceDirection(Array<double, d> 
 // 	return force;
 // }
 
-
+// Another test for the force function
+	
 // template<int d>
 // Array<double, d> GradientEnvironment<d>::forceApplied(Array<double, d> pos) const{
 // // void GradientEnvironment<d>::forceApplied(Array<double, d> position) const{
@@ -109,9 +112,9 @@ Array<double, d> GradientEnvironment<d>::computeForceDirection(Array<double, d> 
 // 	return force;
 // }
 
+// This is where we compute the force that will be applied onto the vertices of the cells' layer	
 template<int d>
 Array<double, d> GradientEnvironment<d>::forceApplied(Array<double, d> pos) const{
-// void GradientEnvironment<d>::forceApplied(Array<double, d> position) const{
 
   // Array<double,2> force(1e-7,0.0);
   Array<double,2> force(1e-8, 0.0);
